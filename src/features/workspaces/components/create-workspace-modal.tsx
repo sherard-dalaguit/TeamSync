@@ -2,7 +2,7 @@ import { Dialog, DialogHeader, DialogContent, DialogTitle } from '@/components/u
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import {useCreateWorkspaceModal} from "@/features/workspaces/store/use-create-workspace-modal";
-import {useCreateWorkspace} from "@/features/auth/api/use-create-workspace";
+import {useCreateWorkspace} from "@/features/workspaces/api/use-create-workspace";
 import React, {useState} from "react";
 import {useRouter} from "next/navigation";
 import {toast} from "sonner"
