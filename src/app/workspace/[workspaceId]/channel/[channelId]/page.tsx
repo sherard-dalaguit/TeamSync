@@ -4,6 +4,7 @@ import {useChannelId} from "@/hooks/use-channel-id";
 import {useGetChannel} from "@/features/channels/api/use-get-channel";
 import {Loader, TriangleAlert} from "lucide-react";
 import {Header} from "@/app/workspace/[workspaceId]/channel/[channelId]/header";
+import {ChatInput} from "@/app/workspace/[workspaceId]/channel/[channelId]/chat-input";
 
 const ChannelIdPage = () => {
 	const channelId = useChannelId();
@@ -30,6 +31,8 @@ const ChannelIdPage = () => {
 	return (
 		<div className="flex flex-col h-full">
 			<Header title={channel.name} />
+			<div className="flex-1" />
+			<ChatInput />
 		</div>
 	);
 };
