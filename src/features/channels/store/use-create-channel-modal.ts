@@ -1,4 +1,4 @@
-import { atom, useAtom } from "Jotai";
+import { atom, useAtom } from "jotai";
 
 const modalState = atom(false);
 
