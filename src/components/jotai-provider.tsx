@@ -1,6 +1,6 @@
 "use client";
 
-import {Provider} from "Jotai";
+import {Provider} from "jotai";
 import React from "react";
 
 interface JotaiProviderProps {
